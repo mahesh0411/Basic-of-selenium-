@@ -1,0 +1,32 @@
+package edurekha;
+import java.util.concurrent.TimeUnit;
+
+
+
+
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.By.ByName;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.seleniumhq.jetty9.security.authentication.LoginAuthenticator;
+import org.openqa.selenium.sessionNotcreatedExcption;
+
+public class firstscript1 {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+		// declare broswer
+		
+		 System.setProperty("webdriver.chrome.driver", "E:\\chrome-driver-latest\\chromedriver.exe"); 
+		 
+		    WebDriver driver=new ChromeDriver();
+		    Thread.sleep(5000);
+		    		
+		    		 driver.navigate().to("http://www.google.co.in");  
+		    		  
+		    		  driver.get("http://www.google.co.in");
+		    		  
+		    		  driver.manage().window().maximize();
+		    		  
+		    		 Thread.sleep(5000);
